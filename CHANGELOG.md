@@ -15,6 +15,57 @@ it according to semantic versioning. For example, if your PR adds a breaking cha
 should change the heading of the (upcoming) version to include a major version bump.
 
 -->
+# 6.0.0-beta.24
+
+## @rjsf/antd
+
+- Updated the `README.md` to show the theme snapshot with the latest theme UI from the playground, making it a link to the theme
+
+## @rjsf/chakra-ui
+
+- Updated the `README.md` to show the theme snapshot with the latest theme UI from the playground, making it a link to the theme
+
+## @rjsf/core
+
+- Updated the `README.md` to show the theme snapshot with the latest theme UI from the playground, making it a link to the theme
+
+## @rjsf/daisyui
+
+- Updated the `README.md` to show the theme snapshot with the latest theme UI from the playground, making it a link to the theme
+
+## @rjsf/fluentui-rc
+
+- Updated the `README.md` to show the theme snapshot with the latest theme UI from the playground, making it a link to the theme
+
+## @rjsf/mantine
+
+- Updated the `README.md` to show the theme snapshot with the latest theme UI from the playground, making it a link to the theme
+
+## @rjsf/mui
+
+- Updated the `README.md` to show the theme snapshot with the latest theme UI from the playground, making it a link to the theme
+
+## @rjsf/primereact
+
+- Updated the `README.md` to show the theme snapshot with the latest theme UI from the playground, making it a link to the theme
+
+## @rjsf/react-bootstrap
+
+- Updated the `README.md` to show the theme snapshot with the latest theme UI from the playground, making it a link to the theme
+
+## @rjsf/semantic-ui
+
+- Updated the `README.md` to show the theme snapshot with the latest theme UI from the playground, making it a link to the theme
+
+## @rjsf/shadcn
+
+- Updated the `README.md` to show the theme snapshot with the latest theme UI from the playground, making it a link to the theme
+
+## Dev / docs / playground
+
+- Updated the playground to modernize the UI using MUI components
+- Updated the documentation to switch to using an animated gif based on the latest modernized playground UI
+
 # 6.0.0-beta.23
 
 ## @rjsf/core
@@ -23,6 +74,7 @@ should change the heading of the (upcoming) version to include a major version b
 - Updated `Form` to support the new feature to do `onBlur` handling of `liveValidate` and `liveOmit`
 
 ## Dev / docs / playground
+
 - Updated the playground to switch `liveValidate` and `liveOmit` from checkboxes to radio buttons for the new options
 - Updated `form-props.md` and `v6x upgrade guide.md` to document the new feature and deprecation
 
@@ -127,6 +179,7 @@ should change the heading of the (upcoming) version to include a major version b
 - BREAKING CHANGE: Renamed `ArrayFieldItemButtonsTemplateType` to `ArrayFieldItemButtonsTemplateProps` and updated it to replace the `onAddIndexClick()`, `onCopyIndexClick()`, `onDropIndexClick()` and `onReorderClick()` callback-generator props with the `onAddItem()`, `onCopyItem()`, `onMoveUpItem()`, `onMoveDownItem()` and `onRemoveItem()` callback props
 
 ## Dev / docs / playground
+
 - Updated the `formTests.tsx` snapshots to add an `anyOf` of all arrays with different item types and removed the disabling of the optional data controls feature for the optional object with oneOfs
   - Updated the snapshots in all of the themes accordingly
 - Updated the playground to make the same changes as `formTests.tsx` in the `optionalDataControls.ts` sample, moving the `experimental_defaultFormStateBehavior` inside of a `liveSettings` block
