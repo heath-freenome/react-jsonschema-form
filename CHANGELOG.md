@@ -15,6 +15,16 @@ it according to semantic versioning. For example, if your PR adds a breaking cha
 should change the heading of the (upcoming) version to include a major version bump.
 
 -->
+# 6.0.2
+
+## @rjsf/antd
+
+- Updated `ArrayFieldTemplate` and `ObjectFieldTemplate` to remove the rendering of a duplicate description (since the `FieldTemplate` already does it), fixing [#3624](https://github.com/rjsf-team/react-jsonschema-form/issues/3624)
+
+## Dev / docs / playground
+
+- Updated the `OptionsDrawer` of the playground to add `idPrefix` and `idSeparator` fields
+
 # 6.0.1
 
 ## Dev / docs / playground
